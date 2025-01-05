@@ -91,6 +91,7 @@
   
   .header-left {
 	float: left;
+	color: white;
   }
   
   .header-right {
@@ -182,13 +183,14 @@
   }
   
   footer p {
-	color: #b3aeb5;
+	/* color: #b3aeb5; */
 	font-size: 12px;
   }
   
   footer {
 	padding-top: 30px;
 	padding-bottom: 20px;
+	text-align: center;
   }
   
   .menu-icon {
@@ -201,6 +203,13 @@
   
   .clear {
 	clear: left;
+  }
+
+  .policy-wrapper {
+	padding: 145px 5% 80px 5%;
+	border-bottom: 1px solid #eee;
+	background-color: #f7f7f7;
+	text-align: left;
   }
   
   @media all and (max-width: 1000px) {
